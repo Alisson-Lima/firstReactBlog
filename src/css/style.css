@@ -693,11 +693,11 @@ a {
   border: 1px solid red;
 }
 
-.menu {
-  list-style: none;
+.header-menu {
   display: flex;
+  list-style: none;
 }
-.menu li {
+.header-menu li {
   margin-left: 24px;
 }
 
@@ -711,22 +711,12 @@ a {
 }
 
 .input-search {
-  height: 40px;
-  min-width: 300px;
-  background-color: #15171A;
+  height: 48px;
+  background: #15171A;
   border: 0;
   border-radius: 4px;
   color: #FAFCFC;
-  padding: 8px;
-}
-
-.img-profile {
-  width: 56px;
-  height: 56px;
-  background-color: #4E4E50;
-  border-radius: 50%;
-}
-
-.container-posts {
-  display: flex;
+  padding: 8px 16px;
+  outline: transparent;
+  min-width: 300px;
 }

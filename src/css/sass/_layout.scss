@@ -33,9 +33,9 @@ a{
     border: 1px solid red;
 }
 
-.menu{
-    list-style: none;
+.header-menu{
     display: flex;
+    list-style: none;
 
     li{
         margin-left: 24px;
@@ -44,37 +44,20 @@ a{
 
 .nav-link{
     display: inline-block;
-
     padding: 8px;
-
     transition: .5s ease;
-
     &:hover{
         opacity: .7;
     }
 }
 
 .input-search{
-    height: 40px;
-    min-width: 300px;
-
-    background-color: $black-light;
-
+    height: 48px;
+    background: $black-light;
     border: 0;
     border-radius: 4px;
-
     color: $white-light;
-    padding: 8px;
-}
-
-.img-profile{
-    width: 56px;
-    height: 56px;
-    background-color: $gray-2;
-    border-radius: 50%;
-}
-
-.container-posts{
-    display: flex;
-
+    padding: 8px 16px;
+    outline: transparent;
+    min-width: 300px;
 }
