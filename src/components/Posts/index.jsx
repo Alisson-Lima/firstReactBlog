@@ -1,12 +1,10 @@
-export default function Posts(){
+export default function Posts({subtitle, title, children}){
     return(
         <div className="post mx-2">
             <div className="img-post"></div>
-            <h5>Tecnologia</h5>
-            <h3>O guia definitivo do Blog</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus corrupti similique eveniet sequi quas laboriosam, impedit dolore ullam!
-            </p>
+            <h5>{subtitle}</h5>
+            <h3>{title}</h3>
+            <p>{children}</p>
             <div className="flex pt-2">
                 <div className="img-profile">
                     <img src="" alt="" />
