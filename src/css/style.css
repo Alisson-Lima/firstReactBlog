@@ -720,3 +720,23 @@ a {
   outline: transparent;
   min-width: 300px;
 }
+
+.img-profile {
+  height: 56px;
+  width: 56px;
+  background-color: #4E4E50;
+  border-radius: 50%;
+}
+
+.container-posts {
+  display: flex;
+}
+
+@media screen and (max-width: 956px) {
+  .container-posts {
+    flex-wrap: wrap;
+  }
+  .post {
+    margin-bottom: 56px;
+  }
+}

@@ -2,9 +2,12 @@ import Posts from "../Posts/"
 
 export default function Articles(){
     return(
-        <>
-            <h1>Article</h1>
-            <Posts/>
-        </>
+        <main className="container">
+            <div className="container-posts mt-5">
+                <Posts />
+                <Posts />
+                <Posts />
+            </div>
+        </main>
     )
 }
