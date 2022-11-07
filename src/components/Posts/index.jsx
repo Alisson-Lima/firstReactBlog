@@ -1,4 +1,4 @@
-export default function Posts({subtitle, title, children}){
+export function Posts({subtitle, title, children}){
     return(
         <div className="post mx-2">
             <div className="img-post"></div>
